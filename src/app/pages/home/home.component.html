@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="lista-filmes"  *ngIf="filmes">
+        <article *ngFor="let filme of filmes.results; let i = index">
+            <strong>{{filmes.results[i].title}}</strong>
+            <img src="https://image.tmdb.org/t/p/original/{{filme.poster_path}}">
+            <a routerLink="/filmes/{{filme.id}}">Acessar</a>
+        </article>
+    </div>
+</div>

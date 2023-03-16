@@ -1,0 +1,13 @@
+<div class="meus-filmes">
+    <h1>Meus filmes</h1>
+    <span *ngIf="filmes.length === 0"> Você não possui filmes salvos</span>
+    <ul *ngFor="let filme of filmes">
+        <li>
+            <span>{{filme.title}}</span>
+            <div>
+                <a routerLink="/filmes/{{filme.id}}">Ver detalhes</a>
+                <button (click)="excluir(filme.id)">Excluir</button>
+            </div>
+        </li>
+    </ul>
+</div>
