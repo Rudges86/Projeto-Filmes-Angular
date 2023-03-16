@@ -1,10 +1,10 @@
 # Filmes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
+Este projeto foi desenvolvido com [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2. Projeto feito no react e replicado no angular.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Use `ng s --o` para iniciar o servidor. Ele abrirá na página `http://localhost:4200/`. A cada mudança feita a aplicação irá recarregar as mudanças.
 
 ## Code scaffolding
 
